@@ -1,0 +1,80 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+nav ul   li{
+    list-style: none;
+}
+
+/* shared styles */
+
+.dark-2{
+    color: #474747;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    padding: 18px 30px;
+    font-size: 20px;
+}
+
+/* banner styles */
+
+.ban-greet{
+font-size: 25px;
+font-weight: 600;
+}
+
+.ban-title{
+font-size: 50px;
+font-weight: bold;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+
+.ban-profile-pic{
+    width: 360px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 0 120px;
+}
+.banner-content{
+    max-width: 360px;
+}
+
+/* header style */
+.header{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
